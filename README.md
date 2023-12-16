@@ -19,7 +19,7 @@ yellow = '#ffca3a'
 
 bar_width = 0.5
 
-TARBIAT_CSV_FILE_PATH = "Tarbiat.csv"
+TARBIAT_CSV_FILE_PATH = "../given-files/Tarbiat.csv"
 
 data = pd.read_csv(TARBIAT_CSV_FILE_PATH)
 
@@ -47,7 +47,7 @@ plt.show()
 
 
     
-![png](output_1_0.png)
+![png](./graphs/output_1_0.png)
     
 
 
@@ -97,7 +97,7 @@ plt.show()
 
 
     
-![png](output_5_0.png)
+![png](./graphs/output_5_0.png)
     
 
 
@@ -129,7 +129,7 @@ plt.show()
 
 
     
-![png](output_7_0.png)
+![png](./graphs/output_7_0.png)
     
 
 
@@ -190,7 +190,7 @@ plt.show()
 
 
     
-![png](output_9_0.png)
+![png](./graphs/output_9_0.png)
     
 
 
@@ -293,7 +293,7 @@ plt.show()
 
 
     
-![png](output_15_0.png)
+![png](./graphs/output_15_0.png)
     
 
 
@@ -325,7 +325,7 @@ plt.show()
 
 
     
-![png](output_17_0.png)
+![png](./graphs/output_17_0.png)
     
 
 
@@ -346,7 +346,7 @@ t = 1000
 p = np.linspace(0,1,t)
 fy = stats.beta.pdf(p, a=1, b=1)
 
-DIGITS_CSV_FILE_PATH = "digits.csv"
+DIGITS_CSV_FILE_PATH = "../given-files/digits.csv"
 
 df = pd.read_csv(DIGITS_CSV_FILE_PATH)
 
@@ -377,7 +377,7 @@ plt.show()
 
 
     
-![png](output_23_0.png)
+![png](./graphs/output_23_0.png)
     
 
 
@@ -418,7 +418,7 @@ for i in range(100):
 
 
     
-![png](output_26_0.png)
+![png](./graphs/output_26_0.png)
     
 
 
